@@ -4,7 +4,7 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
   ? '/ugly-avatar/'
   : '/',
-  devServer:{
-    disableHostCheck: true
+  devServer: {
+    allowedHosts: 'all'
   }
 })
