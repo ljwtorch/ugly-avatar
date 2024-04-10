@@ -5,6 +5,7 @@ module.exports = defineConfig({
   ? '/ugly-avatar/'
   : '/',
   devServer: {
-    allowedHosts: 'all'
+    allowedHosts: 'all',
+    port: 8083,
   }
 })
